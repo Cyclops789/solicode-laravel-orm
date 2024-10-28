@@ -6,12 +6,12 @@ rectangle BLOG {
 
   usecase "CRUD ARTICL" as UC1
   usecase "CRUD CATEGORY" as UC3
-  usecase "READ ARTICL" as UC2
+  usecase "CONSULTER ARTICL" as UC2
 
 }
 us -- UC1
 us -- UC3
 ad -- UC2
-UC1 . UC3 
+
 
 @enduml
