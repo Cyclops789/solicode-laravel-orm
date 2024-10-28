@@ -1,0 +1,12 @@
+@startuml Blog
+left to right direction
+actor "autheur" as us
+actor "user" as ad
+rectangle BLOG {
+  usecase "CRUD ARTICL" as UC1
+  usecase "READ ARTICL" as UC2
+}
+us --> UC1
+ad --> UC2
+@enduml
+
