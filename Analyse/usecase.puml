@@ -7,11 +7,12 @@ rectangle BLOG {
   usecase "CRUD ARTICL" as UC1
   usecase "CRUD CATEGORY" as UC3
   usecase "CONSULTER ARTICL" as UC2
+  usecase "authentique" as UC4
 
 }
 us -- UC1
 us -- UC3
 ad -- UC2
-
-
+UC3-..UC4:<<inxlude>>
+UC1-..UC4:<<inxlude>>
 @enduml
